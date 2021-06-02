@@ -18,4 +18,5 @@ Route::group(['prefix' => '/v1', 'middleware' => ['auth:api'], 'namespace' => 'A
     Route::apiResource('loginhistory', 'LoginHistoryController');
     Route::apiResource('product', 'ProductController');
 
+
 });
